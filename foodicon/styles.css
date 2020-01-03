@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "foodicon";
+  src:url("fonts/foodicon.eot");
+  src:url("fonts/foodicon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/foodicon.woff") format("woff"),
+    url("fonts/foodicon.ttf") format("truetype"),
+    url("fonts/foodicon.svg#foodicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "foodicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "foodicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cheese:before {
+  content: "\61";
+}
+.icon-pie:before {
+  content: "\62";
+}
+.icon-pasta:before {
+  content: "\63";
+}
+.icon-hotdog:before {
+  content: "\64";
+}
+.icon-taco:before {
+  content: "\65";
+}
+.icon-chicken:before {
+  content: "\66";
+}
+.icon-sundae:before {
+  content: "\67";
+}
+.icon-donut:before {
+  content: "\68";
+}
+.icon-cupcake:before {
+  content: "\69";
+}
+.icon-pizza:before {
+  content: "\6a";
+}
+.icon-hamburger:before {
+  content: "\6b";
+}
+.icon-pancakes:before {
+  content: "\6c";
+}
+.icon-sushi:before {
+  content: "\6d";
+}
+.icon-three:before {
+  content: "\6e";
+}
+.icon-two:before {
+  content: "\6f";
+}
+.icon-one:before {
+  content: "\70";
+}
